@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-rest" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181112"/>
+      <stop offset="50%" stop-color="#241416"/>
+      <stop offset="100%" stop-color="#0e0a0b"/>
+    </linearGradient>
+    <linearGradient id="red-glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <filter id="glow-rest" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg-rest)"/>
+
+  <!-- Ambient Glow -->
+  <circle cx="680" cy="120" r="160" fill="#ef4444" opacity="0.1" filter="url(#glow-rest)"/>
+  <circle cx="120" cy="350" r="140" fill="#f97316" opacity="0.08" filter="url(#glow-rest)"/>
+
+  <!-- Mockup Frame -->
+  <rect x="60" y="40" width="680" height="420" rx="16" fill="#171213" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <rect x="60" y="40" width="680" height="45" rx="16" fill="#201718"/>
+  <circle cx="90" cy="62" r="5" fill="#ef4444"/>
+  <circle cx="110" cy="62" r="5" fill="#f59e0b"/>
+  <circle cx="130" cy="62" r="5" fill="#10b981"/>
+  <rect x="240" y="52" width="320" height="22" rx="11" fill="rgba(0,0,0,0.3)"/>
+  <text x="400" y="67" fill="#94a3b8" font-family="sans-serif" font-size="11" text-anchor="middle">saporedivino.com.br/cardapio</text>
+
+  <!-- Content -->
+  <g transform="translate(90, 110)">
+    <rect x="0" y="0" width="130" height="24" rx="12" fill="rgba(239, 68, 68, 0.15)" stroke="rgba(239, 68, 68, 0.4)"/>
+    <text x="65" y="16" fill="#f87171" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">GASTRONOMIA ITALIANA</text>
+
+    <text x="0" y="55" fill="#ffffff" font-family="sans-serif" font-size="28" font-weight="900">SAPORE DIVINO</text>
+    <text x="0" y="80" fill="#fb923c" font-family="sans-serif" font-size="18" font-weight="600">CARDÁPIO DIGITAL &amp; RESERVAS</text>
+    <text x="0" y="110" fill="#a8a29e" font-family="sans-serif" font-size="12">Faça seu pedido direto pelo WhatsApp com fotos reais e preços atualizados.</text>
+
+    <!-- Menu Showcase -->
+    <g transform="translate(0, 140)">
+      <rect x="0" y="0" width="280" height="60" rx="10" fill="#241b1d" stroke="rgba(255,255,255,0.06)"/>
+      <circle cx="30" cy="30" r="18" fill="#ef4444" opacity="0.2"/>
+      <text x="30" y="36" fill="#ffffff" font-size="16" text-anchor="middle">🍝</text>
+      <text x="60" y="26" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">Fettuccine al Tartufo</text>
+      <text x="60" y="44" fill="#a8a29e" font-family="sans-serif" font-size="10">Massa fresca artesanal e trufas</text>
+      <text x="240" y="34" fill="#fb923c" font-family="sans-serif" font-size="12" font-weight="bold">R$ 68</text>
+
+      <rect x="0" y="70" width="280" height="60" rx="10" fill="#241b1d" stroke="rgba(255,255,255,0.06)"/>
+      <circle cx="30" cy="100" r="18" fill="#ef4444" opacity="0.2"/>
+      <text x="30" y="106" fill="#ffffff" font-size="16" text-anchor="middle">🍕</text>
+      <text x="60" y="96" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">Pizza Napoletana DOC</text>
+      <text x="60" y="114" fill="#a8a29e" font-family="sans-serif" font-size="10">Fermentação lenta de 48 horas</text>
+      <text x="240" y="104" fill="#fb923c" font-family="sans-serif" font-size="12" font-weight="bold">R$ 59</text>
+    </g>
+
+    <!-- Phone / Mobile Order Mockup Preview -->
+    <g transform="translate(360, 0)">
+      <rect x="0" y="0" width="230" height="280" rx="20" fill="#120c0d" stroke="rgba(239,68,68,0.3)" stroke-width="1.5"/>
+      <rect x="75" y="10" width="80" height="12" rx="6" fill="#201718"/>
+      <circle cx="115" cy="16" r="3" fill="#ffffff" opacity="0.4"/>
+      
+      <!-- Inside Mobile Screen -->
+      <text x="115" y="60" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">🍽 Cardápio no Celular</text>
+      <text x="115" y="80" fill="#22c55e" font-family="sans-serif" font-size="10" text-anchor="middle">● Aberto Agora até 23:30</text>
+      
+      <rect x="20" y="100" width="190" height="40" rx="8" fill="#24191b"/>
+      <text x="35" y="124" fill="#ffffff" font-family="sans-serif" font-size="11">Vinho Chianti Reserva</text>
+      <text x="175" y="124" fill="#fb923c" font-family="sans-serif" font-size="11" font-weight="bold">R$ 95</text>
+      
+      <rect x="20" y="150" width="190" height="40" rx="8" fill="#24191b"/>
+      <text x="35" y="174" fill="#ffffff" font-family="sans-serif" font-size="11">Tiramisù Tradizionale</text>
+      <text x="175" y="174" fill="#fb923c" font-family="sans-serif" font-size="11" font-weight="bold">R$ 28</text>
+
+      <rect x="20" y="210" width="190" height="38" rx="19" fill="#25D366"/>
+      <text x="115" y="234" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Pedir pelo WhatsApp 💬</text>
+    </g>
+  </g>
+</svg>

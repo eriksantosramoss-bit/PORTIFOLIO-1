@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenvolvimento Web & Presença no Google | Soluções Digitais de Alta Conversão</title>
+  <meta name="description" content="Criação de sites profissionais, catálogos digitais interativos e otimização de Google Perfil da Empresa para atrair mais clientes e alavancar seu negócio.">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- RemixIcon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Estilos Personalizados -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-active-theme="hero">
+
+  <!-- Fundo Atmosférico Cósmico com Luzes Difusas Dinâmicas (Azul, Roxo, Laranja, Ciano) -->
+  <div class="cosmic-ambient-bg" id="ambientBg">
+    <div class="ambient-mesh" id="ambientMesh"></div>
+    <div class="orb orb-blue" id="orbBlue"></div>
+    <div class="orb orb-purple" id="orbPurple"></div>
+    <div class="orb orb-orange" id="orbOrange"></div>
+    <div class="orb orb-cyan" id="orbCyan"></div>
+    <div class="grid-overlay"></div>
+    <div class="ambient-noise"></div>
+  </div>
+
+  <!-- Header / Navbar Flutuante -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#inicio" class="brand-logo">
+        <div class="brand-icon-wrapper">
+          <div class="brand-icon-inner">
+            <i class="ri-code-s-slash-line"></i>
+          </div>
+        </div>
+        <span>NEXUS<span class="text-gradient">DIGITAL</span></span>
+        <span class="brand-tag">Studio</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#google-perfil" class="nav-link">Google Perfil</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#processo" class="nav-link">Como Funciona</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20o%20meu%20projeto." target="_blank" class="btn btn-halo-glow" style="padding: 10px 22px; font-size: 0.9rem;">
+          <i class="ri-whatsapp-line"></i> Solicitar Proposta
+        </a>
+        <button class="mobile-menu-toggle" aria-label="Abrir menu de navegação">
+          <i class="ri-menu-4-line"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="inicio" data-section-theme="hero">
+      <div class="hero-cosmic-backdrop"></div>
+      <div class="hero-gradient-overlay"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-status-pill reveal-item">
+            <span class="status-dot"></span>
+            <span>Disponível para novos projetos digitais</span>
+          </div>
+
+          <h1 class="hero-title reveal-item">
+            Sites de Alta Performance, Catálogos e <span class="text-gradient">Máxima Presença no Google.</span>
+          </h1>
+
+          <p class="hero-description reveal-item">
+            Criamos a estrutura digital definitiva para o seu negócio: páginas ultra-rápidas, catálogos online que convertem direto no WhatsApp e posicionamento de destaque no Google Maps para atrair clientes todos os dias.
+          </p>
+
+          <div class="hero-actions reveal-item">
+            <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20dar%20um%20próximo%20passo%20e%20colocar%20meu%20negócio%20na%20internet." target="_blank" class="btn btn-whatsapp" style="font-size: 1.05rem; padding: 16px 32px;">
+              <i class="ri-whatsapp-fill" style="font-size: 1.3rem;"></i> Iniciar Projeto no WhatsApp
+            </a>
+            <a href="#projetos" class="btn btn-secondary">
+              <i class="ri-eye-line"></i> Ver Demonstrações
+            </a>
+          </div>
+
+          <!-- Métricas de Impacto no Hero -->
+          <div class="hero-stats-row reveal-item">
+            <div class="hero-stat-card">
+              <div class="stat-icon">
+                <i class="ri-line-chart-line"></i>
+              </div>
+              <div>
+                <div class="stat-number stat-count" data-target="340" data-prefix="+" data-suffix="%">+0%</div>
+                <div class="stat-label">Mais Visibilidade Local</div>
+              </div>
+            </div>
+
+            <div class="hero-stat-card">
+              <div class="stat-icon gold">
+                <i class="ri-flashlight-line"></i>
+              </div>
+              <div>
+                <div class="stat-number stat-count" data-target="100" data-suffix="%">0%</div>
+                <div class="stat-label">Otimizado para Mobile</div>
+              </div>
+            </div>
+
+            <div class="hero-stat-card">
+              <div class="stat-icon green">
+                <i class="ri-shield-check-line"></i>
+              </div>
+              <div>
+                <div class="stat-number">5.0 ★</div>
+                <div class="stat-label">Padrão Google Meu Negócio</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transição Luminosa -->
+    <div class="section-glow-divider"></div>
+
+    <!-- ==========================================================================
+         FAIXA MARQUEE INFINITA
+         ========================================================================== -->
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Sites Ultra Rápidos</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Catálogos Digitais Interativos</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Otimização Google Perfil da Empresa</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Design Moderno &amp; Dark Premium</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Alta Conversão no WhatsApp</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> 100% Responsivo p/ Celulares</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> SEO Local &amp; Top 1 no Google Maps</div>
+        
+        <!-- Duplicação para loop contínuo -->
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Sites Ultra Rápidos</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Catálogos Digitais Interativos</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Otimização Google Perfil da Empresa</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Design Moderno &amp; Dark Premium</div>
+        <div class="marquee-item"><i class="ri-checkbox-circle-fill"></i> Alta Conversão no WhatsApp</div>
+      </div>
+    </div>
+
+    <!-- Transição Luminosa -->
+    <div class="section-glow-divider"></div>
+
+    <!-- ==========================================================================
+         SEÇÃO DE SERVIÇOS
+         ========================================================================== -->
+    <section class="services-section" id="servicos" data-section-theme="servicos">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <div class="section-badge">
+            <i class="ri-service-line"></i> O Que Fazemos
+          </div>
+          <h2 class="section-title">Soluções Completas para o Seu Crescimento Digital</h2>
+          <p class="section-subtitle">
+            Desenvolvemos ferramentas pensadas estrategicamente para gerar credibilidade, autoridade visual e vendas todos os dias para o seu negócio.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1: Sites & Landing Pages -->
+          <div class="glass-card service-card reveal-item">
+            <div>
+              <div class="service-icon-box">
+                <i class="ri-layout-3-line"></i>
+              </div>
+              <span class="service-tag">Alta Performance</span>
+              <h3 class="service-title">Criação de Sites &amp; Landing Pages</h3>
+              <p class="service-desc">
+                Sites modernos, institucionais e páginas de venda ultra-rápidas, focadas em transformar visitantes em contatos no WhatsApp.
+              </p>
+              <ul class="service-features">
+                <li class="service-feature-item"><i class="ri-check-line"></i> Design exclusivo e responsivo</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Carregamento em menos de 2 segundos</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Otimização para mecanismos de busca (SEO)</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Domínio próprio e segurança SSL</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/5511999999999?text=Olá!%20Tenho%20interesse%20na%20criação%20de%20um%20Site%20ou%20Landing%20Page." target="_blank" class="service-cta-link">
+              Quero meu site profissional <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <!-- Card 2: Catálogos Digitais -->
+          <div class="glass-card service-card reveal-item">
+            <div>
+              <div class="service-icon-box purple">
+                <i class="ri-store-2-line"></i>
+              </div>
+              <span class="service-tag" style="color: #c084fc;">Praticidade &amp; Vendas</span>
+              <h3 class="service-title">Catálogos Digitais Interativos</h3>
+              <p class="service-desc">
+                Substitua PDFs pesados por um catálogo online ágil com carrinho, fotos em alta resolução e fechamento de pedidos direto no WhatsApp.
+              </p>
+              <ul class="service-features">
+                <li class="service-feature-item"><i class="ri-check-line"></i> Fácil atualização de preços e itens</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Carrinho com cálculo automático</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Sem cobrança de mensalidades ou comissões</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Ideal para roupas, alimentos e produtos</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Catálogo%20Digital%20Interativo." target="_blank" class="service-cta-link" style="color: #c084fc;">
+              Criar meu catálogo interativo <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <!-- Card 3: Google Perfil da Empresa -->
+          <div class="glass-card service-card reveal-item">
+            <div>
+              <div class="service-icon-box gold">
+                <i class="ri-map-pin-2-line"></i>
+              </div>
+              <span class="service-tag" style="color: #fbbf24;">Mais Procurado</span>
+              <h3 class="service-title">Otimização do Google Perfil da Empresa</h3>
+              <p class="service-desc">
+                Coloque sua empresa no topo do Google Maps quando pessoas próximas procurarem pelos seus produtos ou serviços na sua cidade.
+              </p>
+              <ul class="service-features">
+                <li class="service-feature-item"><i class="ri-check-line"></i> Configuração completa e verificação</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Palavras-chave estratégicas de busca local</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Fotos profissionais e catálogo de produtos</li>
+                <li class="service-feature-item"><i class="ri-check-line"></i> Estratégia para avaliações 5 estrelas</li>
+              </ul>
+            </div>
+            <a href="#google-perfil" class="service-cta-link" style="color: #fbbf24;">
+              Ver detalhes da otimização <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transição Luminosa -->
+    <div class="section-glow-divider"></div>
+
+    <!-- ==========================================================================
+         SEÇÃO DEDICADA: GOOGLE PERFIL DA EMPRESA ("MAPA ENCONTRADO")
+         ========================================================================== -->
+    <section class="google-profile-section" id="google-perfil" data-section-theme="google-perfil">
+      <div class="container">
+        <div class="google-section-grid">
+          <!-- Coluna Texto & Benefícios -->
+          <div class="google-content-box">
+            <div class="section-badge gold reveal-item">
+              <i class="ri-google-fill"></i> Google Meu Negócio Especializado
+            </div>
+            <h2 class="section-title reveal-item">
+              Seja o <span class="text-gradient-gold">Primeiro a Ser Encontrado</span> no Google da Sua Região
+            </h2>
+            <p class="section-subtitle reveal-item">
+              Mais de 80% das pessoas pesquisam no Google antes de comprar ou contratar em sua cidade. Se a sua empresa não aparece bem posicionada com fotos, rotas e avaliações, você está entregando clientes prontos para a concorrência.
+            </p>
+
+            <div class="google-benefit-list">
+              <div class="benefit-card reveal-item">
+                <div class="benefit-num">01</div>
+                <div>
+                  <h4 class="benefit-title">Destaque Máximo no Google Maps</h4>
+                  <p class="benefit-desc">Apareça no topo das buscas no celular quando o cliente estiver a poucos metros de você ou pesquisando no seu bairro.</p>
+                </div>
+              </div>
+
+              <div class="benefit-card reveal-item">
+                <div class="benefit-num">02</div>
+                <div>
+                  <h4 class="benefit-title">Mais Ligações, Rotas e Mensagens</h4>
+                  <p class="benefit-desc">Botões rápidos que permitem ao cliente traçar a rota até você, ligar com 1 toque ou abrir seu WhatsApp na hora.</p>
+                </div>
+              </div>
+
+              <div class="benefit-card reveal-item">
+                <div class="benefit-num">03</div>
+                <div>
+                  <h4 class="benefit-title">Autoridade com Avaliações 5 Estrelas</h4>
+                  <p class="benefit-desc">Estruturamos seu perfil com fotos de alta qualidade, selo de verificação e sistema para incentivar depoimentos positivos.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reveal-item">
+              <a href="https://wa.me/5511999999999?text=Olá!%20Quero%20otimizar%20o%20Google%20Perfil%20da%20minha%20empresa%20para%20aparecer%20no%20topo%20do%20mapa." target="_blank" class="btn btn-primary">
+                <i class="ri-compass-3-line"></i> Quero Minha Empresa no Topo do Google
+              </a>
+            </div>
+          </div>
+
+          <!-- Coluna Visual "Mapa Encontrado" & Card Interativo -->
+          <div class="google-visual-stage reveal-item">
+            <div class="map-mockup-wrapper">
+              <!-- Mapa Dark com Ruas e Pin com Radar -->
+              <div class="map-background-canvas">
+                <svg class="map-roads" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Ruas estilizadas vetorizadas dark -->
+                  <path d="M-20,80 Q 200,60 400,120 T 800,100" fill="none" stroke="#1e293b" stroke-width="16"/>
+                  <path d="M-20,80 Q 200,60 400,120 T 800,100" fill="none" stroke="#334155" stroke-width="4"/>
+                  
+                  <path d="M120,-20 L 140,320" fill="none" stroke="#1e293b" stroke-width="14"/>
+                  <path d="M120,-20 L 140,320" fill="none" stroke="#334155" stroke-width="3"/>
+
+                  <path d="M380,-20 L 350,320" fill="none" stroke="#1e293b" stroke-width="18"/>
+                  <path d="M380,-20 L 350,320" fill="none" stroke="#38bdf8" stroke-width="4" stroke-opacity="0.6"/>
+
+                  <path d="M-10,220 Q 250,180 500,240" fill="none" stroke="#1e293b" stroke-width="12"/>
+                  <path d="M-10,220 Q 250,180 500,240" fill="none" stroke="#334155" stroke-width="2"/>
+                </svg>
+
+                <!-- Pin Central com Pulso de Radar -->
+                <div class="map-pin-container">
+                  <div class="map-radar-pulse"></div>
+                  <i class="ri-map-pin-fill map-pin-icon"></i>
+                  <span class="map-pin-badge">Sua Empresa Aqui</span>
+                </div>
+              </div>
+
+              <!-- Card Flutuante Google Perfil 5 Estrelas -->
+              <div class="google-business-card">
+                <div class="gb-header">
+                  <div>
+                    <h3 class="gb-title">Sua Empresa no Topo</h3>
+                    <span class="gb-category">Serviço Especializado • Cidade &amp; Região</span>
+                  </div>
+                  <span class="gb-badge-verified">
+                    <i class="ri-verified-badge-fill"></i> Verificado
+                  </span>
+                </div>
+
+                <div class="gb-rating">
+                  <span class="gb-score">5.0</span>
+                  <div class="gb-stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                  </div>
+                  <span class="gb-reviews">(+120 avaliações de clientes)</span>
+                </div>
+
+                <div class="gb-buttons-row">
+                  <button class="gb-action-btn">
+                    <i class="ri-direction-line"></i>
+                    <span>Rotas</span>
+                  </button>
+                  <button class="gb-action-btn">
+                    <i class="ri-phone-line"></i>
+                    <span>Ligar</span>
+                  </button>
+                  <button class="gb-action-btn">
+                    <i class="ri-global-line"></i>
+                    <span>Website</span>
+                  </button>
+                </div>
+
+                <div class="gb-stat-badge">
+                  <span><i class="ri-arrow-up-circle-fill"></i> +340% de ligações e visualizações</span>
+                  <strong>Top 1 Busca Local</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transição Luminosa -->
+    <div class="section-glow-divider"></div>
+
+    <!-- ==========================================================================
+         PROJETOS DEMONSTRATIVOS
+         ========================================================================== -->
+    <section class="projects-section" id="projetos" data-section-theme="projetos">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <div class="section-badge">
+            <i class="ri-folder-open-line"></i> Portfólio em Ação
+          </div>
+          <h2 class="section-title">Projetos Demonstrativos</h2>
+          <p class="section-subtitle">
+            Veja exemplos práticos de sites, catálogos e posicionamentos criados para diferentes segmentos de mercado.
+          </p>
+        </div>
+
+        <!-- Filtros -->
+        <div class="projects-filter-bar reveal-item">
+          <button class="filter-btn active" data-filter="all">Todos os Projetos</button>
+          <button class="filter-btn" data-filter="sites">Sites &amp; Agendamento</button>
+          <button class="filter-btn" data-filter="catalogos">Catálogos Digitais</button>
+          <button class="filter-btn" data-filter="google">Google Meu Negócio</button>
+        </div>
+
+        <!-- Grade de Projetos -->
+        <div class="projects-grid">
+          <!-- Projeto 1: Barbearia -->
+          <div class="glass-card project-card reveal-item" data-category="sites">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/project-barber.svg" alt="Barbearia Vintage Blade" class="project-preview-mockup">
+              <span class="project-badge-pill">Barbearia &amp; Beleza</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Vintage Blade - Barber Club</h3>
+              <p class="project-desc">
+                Site institucional sofisticado com apresentação de serviços, equipe, tabela de valores e integração direta com agendamento via WhatsApp.
+              </p>
+              <div class="project-tags">
+                <span class="tag-item">Site Dark</span>
+                <span class="tag-item">Agendamento</span>
+                <span class="tag-item">Google 4.9★</span>
+              </div>
+              <div class="project-footer-actions">
+                <span style="font-size: 0.85rem; color: #10b981; font-weight: 600;">● Pronto p/ Conversão</span>
+                <button class="btn-demo-view" data-project="barber">
+                  Ver Demonstração <i class="ri-arrow-right-up-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 2: Restaurante -->
+          <div class="glass-card project-card reveal-item" data-category="catalogos">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/project-restaurant.svg" alt="Restaurante Sapore Divino" class="project-preview-mockup">
+              <span class="project-badge-pill" style="color: #fb923c;">Restaurante &amp; Gastronomia</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Sapore Divino - Ristorante</h3>
+              <p class="project-desc">
+                Cardápio digital dinâmico e interativo para pedidos no WhatsApp, com fotos em alta resolução, destaques do dia e reservas de mesas.
+              </p>
+              <div class="project-tags">
+                <span class="tag-item">Cardápio Digital</span>
+                <span class="tag-item">Pedidos WhatsApp</span>
+                <span class="tag-item">Zero Mensalidades</span>
+              </div>
+              <div class="project-footer-actions">
+                <span style="font-size: 0.85rem; color: #10b981; font-weight: 600;">● Sem Taxa de Apps</span>
+                <button class="btn-demo-view" data-project="restaurant">
+                  Ver Demonstração <i class="ri-arrow-right-up-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 3: Clínica -->
+          <div class="glass-card project-card reveal-item" data-category="sites google">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/project-clinic.svg" alt="Clínica Lumina" class="project-preview-mockup">
+              <span class="project-badge-pill" style="color: #38bdf8;">Saúde &amp; Estética</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Clínica Lumina - Dermatologia</h3>
+              <p class="project-desc">
+                Landing page elegante de alta conversão para clínicas e profissionais de saúde, aliada à otimização no topo das buscas locais do Google.
+              </p>
+              <div class="project-tags">
+                <span class="tag-item">Landing Page</span>
+                <span class="tag-item">Google Meu Negócio</span>
+                <span class="tag-item">Top 1 Local</span>
+              </div>
+              <div class="project-footer-actions">
+                <span style="font-size: 0.85rem; color: #10b981; font-weight: 600;">● Alta Autoridade</span>
+                <button class="btn-demo-view" data-project="clinic">
+                  Ver Demonstração <i class="ri-arrow-right-up-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 4: Luart Dream -->
+          <div class="glass-card project-card reveal-item" data-category="catalogos">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/project-luartdream.svg" alt="Luart Dream Pijamas" class="project-preview-mockup">
+              <span class="project-badge-pill" style="color: #ec4899;">Moda &amp; Sleepwear</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Luart Dream - Catálogo Digital</h3>
+              <p class="project-desc">
+                Catálogo exclusivo de moda e pijamas premium com seleção de tamanhos, tabela de medidas e carrinho que monta o pedido direto para o WhatsApp.
+              </p>
+              <div class="project-tags">
+                <span class="tag-item">Catálogo E-commerce</span>
+                <span class="tag-item">Pijamas Premium</span>
+                <span class="tag-item">Foco em Vendas</span>
+              </div>
+              <div class="project-footer-actions">
+                <span style="font-size: 0.85rem; color: #10b981; font-weight: 600;">● +82% de Conversão</span>
+                <button class="btn-demo-view" data-project="luart">
+                  Ver Demonstração <i class="ri-arrow-right-up-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transição Luminosa -->
+    <div class="section-glow-divider"></div>
+
+    <!-- ==========================================================================
+         PROCESSO DE TRABALHO EM 4 PASSOS
+         ========================================================================== -->
+    <section class="process-section" id="processo" data-section-theme="processo">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <div class="section-badge">
+            <i class="ri-git-commit-line"></i> Como Funciona
+          </div>
+          <h2 class="section-title">Processo Rápido, Transparente e Sem Burocracia</h2>
+          <p class="section-subtitle">
+            Do primeiro contato até o lançamento oficial, você acompanha tudo com clareza.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <div class="glass-card process-card reveal-item">
+            <div class="process-step-badge">01</div>
+            <h3 class="process-title">Alinhamento Inicial</h3>
+            <p class="process-desc">Entendemos suas necessidades, o perfil do seu público e o objetivo principal do seu site ou catálogo.</p>
+          </div>
+
+          <div class="glass-card process-card reveal-item">
+            <div class="process-step-badge">02</div>
+            <h3 class="process-title">Design &amp; Desenvolvimento</h3>
+            <p class="process-desc">Criamos a interface moderna, responsiva e programamos a estrutura com velocidade e foco em vendas.</p>
+          </div>
+
+          <div class="glass-card process-card reveal-item">
+            <div class="process-step-badge">03</div>
+            <h3 class="process-title">Revisão &amp; Ajustes</h3>
+            <p class="process-desc">Apresentamos o projeto para você testar e validar cada detalhe antes de colocá-lo no ar.</p>
+          </div>
+
+          <div class="glass-card process-card reveal-item">
+            <div class="process-step-badge">04</div>
+            <h3 class="process-title">Lançamento &amp; Google</h3>
+            <p class="process-desc">Publicamos seu projeto, configuramos a presença no Google Maps e entregamos tudo pronto para receber clientes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transição Luminosa -->
+    <div class="section-glow-divider"></div>
+
+    <!-- ==========================================================================
+         SEÇÃO FINAL DE CTA IMPACTANTE
+         ========================================================================== -->
+    <section class="final-cta-section" id="contato" data-section-theme="contato">
+      <div class="container">
+        <div class="cta-banner-box reveal-item">
+          <div class="section-badge gold" style="margin-bottom: 24px;">
+            <i class="ri-rocket-2-fill"></i> Pronto para Dar o Próximo Passo?
+          </div>
+          
+          <h2 class="cta-heading">
+            Vamos colocar o seu negócio online e <span class="text-gradient">atrair mais clientes?</span>
+          </h2>
+          
+          <p class="cta-subtext">
+            Não perca mais vendas por não ter um site profissional ou por não aparecer quando pesquisam por você no Google. Fale comigo agora mesmo e receba uma consultoria inicial sem compromisso!
+          </p>
+
+          <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20colocar%20meu%20negócio%20online." target="_blank" class="btn btn-whatsapp" style="font-size: 1.15rem; padding: 18px 40px;">
+            <i class="ri-whatsapp-fill" style="font-size: 1.4rem;"></i> Falar Diretamente no WhatsApp
+          </a>
+
+          <div class="cta-guarantee-row">
+            <div class="cta-guarantee-item">
+              <i class="ri-check-double-line"></i> Atendimento Rápido e Humanizado
+            </div>
+            <div class="cta-guarantee-item">
+              <i class="ri-check-double-line"></i> Orçamento Claro sem Surpresas
+            </div>
+            <div class="cta-guarantee-item">
+              <i class="ri-check-double-line"></i> Entrega Pontual
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-info">
+          <a href="#inicio" class="brand-logo">
+            <div class="brand-icon-wrapper">
+              <div class="brand-icon-inner">
+                <i class="ri-code-s-slash-line"></i>
+              </div>
+            </div>
+            <span>NEXUS<span class="text-gradient">DIGITAL</span></span>
+          </a>
+          <p>
+            Especialistas em desenvolvimento de sites modernos, catálogos interativos e posicionamento estratégico no Google para empresas que querem crescer.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Serviços</h4>
+          <ul class="footer-links-list">
+            <li><a href="#servicos">Criação de Sites</a></li>
+            <li><a href="#servicos">Catálogos Digitais</a></li>
+            <li><a href="#google-perfil">Google Perfil da Empresa</a></li>
+            <li><a href="#servicos">Landing Pages de Venda</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Demonstrações</h4>
+          <ul class="footer-links-list">
+            <li><a href="#projetos">Barbearia Vintage Blade</a></li>
+            <li><a href="#projetos">Restaurante Sapore Divino</a></li>
+            <li><a href="#projetos">Clínica Lumina Saúde</a></li>
+            <li><a href="#projetos">Luart Dream Moda</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contato Direto</h4>
+          <ul class="footer-links-list">
+            <li><a href="https://wa.me/5511999999999" target="_blank"><i class="ri-whatsapp-line"></i> WhatsApp Comercial</a></li>
+            <li><a href="mailto:contato@nexusdigital.com.br"><i class="ri-mail-line"></i> contato@nexusdigital.com.br</a></li>
+            <li><span style="font-size: 0.88rem; color: #94a3b8;"><i class="ri-time-line"></i> Atendimento: Seg a Sex, 09h às 18h</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>&copy; 2026 Nexus Digital Studio. Todos os direitos reservados.</span>
+        <span>Desenvolvido com foco em velocidade, elegância e conversão.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       BOTÃO FLUTUANTE DO WHATSAPP COM MICRO-ANIMAÇÕES (MANTIDO INTACTO)
+       ========================================================================== -->
+  <div class="floating-whatsapp">
+    <div class="whatsapp-tooltip">
+      <span class="status-dot" style="margin-right: 2px;"></span>
+      <span>Dúvidas? Fale comigo agora!</span>
+    </div>
+    <a href="https://wa.me/5511999999999?text=Olá!%20Estou%20no%20seu%20site%20e%20gostaria%20de%20tirar%20uma%20dúvida." target="_blank" class="whatsapp-pulse-btn" aria-label="Falar pelo WhatsApp">
+      <i class="ri-whatsapp-line"></i>
+    </a>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL DE DEMONSTRAÇÃO INTERATIVO
+       ========================================================================== -->
+  <div class="modal-overlay" id="projectModal" aria-hidden="true" role="dialog">
+    <div class="modal-container">
+      <button class="modal-close-btn" aria-label="Fechar janela de demonstração">
+        <i class="ri-close-line"></i>
+      </button>
+
+      <div class="modal-body">
+        <div class="modal-project-img">
+          <img id="modalImage" src="" alt="Demonstração do Projeto" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <span id="modalCategory" class="section-badge" style="margin-bottom: 10px;">Categoria</span>
+        <h3 id="modalTitle" style="font-size: 1.6rem; margin-bottom: 12px; color: #ffffff;">Título do Projeto</h3>
+        <p id="modalDesc" style="color: #94a3b8; line-height: 1.6; margin-bottom: 20px;">Descrição detalhada do projeto.</p>
+
+        <h4 style="font-size: 1.05rem; color: #ffffff; margin-bottom: 12px;">Principais Funcionalidades:</h4>
+        <ul id="modalFeatures" style="list-style: none; margin-bottom: 24px;"></ul>
+
+        <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 12px; padding: 14px 18px; margin-bottom: 24px;">
+          <div style="font-size: 0.8rem; text-transform: uppercase; color: #10b981; font-weight: 700;">Impacto e Resultados</div>
+          <div id="modalResult" style="color: #ffffff; font-weight: 600; font-size: 0.95rem; margin-top: 4px;"></div>
+        </div>
+
+        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+          <a id="modalWhatsappBtn" href="" target="_blank" class="btn btn-whatsapp" style="flex: 1;">
+            <i class="ri-whatsapp-line"></i> Quero um Projeto Semelhante
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
